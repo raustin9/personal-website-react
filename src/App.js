@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Sidebar />
+      <Home />
       <Switch>
         
         <Route path="/home" exact component={Home} />

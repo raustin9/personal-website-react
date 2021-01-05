@@ -13,7 +13,7 @@ export const SidebarData = [
     {
         title: 'About Me',
         path: '/aboutme',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaUser />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
@@ -37,7 +37,7 @@ export const SidebarData = [
     {
         title: 'Projects',
         path: '/projects',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaDraftingCompass />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
@@ -61,11 +61,11 @@ export const SidebarData = [
     {
         title: 'Contact Me',
         path: '/contact',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaEnvelope />,
     },
     {
         title: 'Music',
         path: '/music',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaFileAudio />,
     }
 ]
