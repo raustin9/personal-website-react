@@ -7,13 +7,26 @@ import {SidebarData} from './SidebarData'
 import SubMenu from './Submenu'
 import { IconContext } from 'react-icons/lib'
 
- 
+/*
+const Header = styled.div`
+    font-size: 2.5rem;
+    margin-left: 
+    padding-right: 8rem;
+    justify-self: right;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+`;
+*/
+
+
 const Nav = styled.div`
     background: #15171c;
     height: 80px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
 `;
 
 const NavIcon = styled(Link)`

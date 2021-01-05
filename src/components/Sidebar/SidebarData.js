@@ -12,7 +12,6 @@ export const SidebarData = [
     },
     {
         title: 'About Me',
-        path: '/aboutme',
         icon: <FaIcons.FaUser />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -36,7 +35,6 @@ export const SidebarData = [
     },
     {
         title: 'Projects',
-        path: '/projects',
         icon: <FaIcons.FaDraftingCompass />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
