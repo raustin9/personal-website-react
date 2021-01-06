@@ -7,19 +7,19 @@ import {SidebarData} from './SidebarData'
 import SubMenu from './Submenu'
 import { IconContext } from 'react-icons/lib'
 
-/*
-const Header = styled.div`
-    font-size: 2.5rem;
-    margin-left: 
-    padding-right: 8rem;
-    justify-self: right;
-    height: 80px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-`;
-*/
+import './Sidebar.css'
 
+const Socials = styled.div`
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    justify-self: end;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.3rem;
+`;
 
 const Nav = styled.div`
     background: #15171c;
@@ -68,6 +68,15 @@ const Sidebar = () => {
                     <NavIcon to="#">
                         <FaIcons.FaBars onClick={showSidebar}/>
                     </NavIcon>
+                    <Socials>
+                        <a href="https://www.linkedin.com/in/ralexaustin9/">
+                            <FaIcons.FaLinkedin />
+                        </a>
+                        <a href="https://github.com/raustin9">
+                            <FaIcons.FaGithubSquare />
+                        </a>
+                    </Socials>
+
                 </Nav>
                 <SidebarNav sidebar={sidebar}>
                     <SidebarWrap>
