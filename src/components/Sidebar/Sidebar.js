@@ -69,12 +69,16 @@ const Sidebar = () => {
                         <FaIcons.FaBars onClick={showSidebar}/>
                     </NavIcon>
                     <Socials>
-                        <a href="https://www.linkedin.com/in/ralexaustin9/">
-                            <FaIcons.FaLinkedin />
-                        </a>
-                        <a href="https://github.com/raustin9">
-                            <FaIcons.FaGithubSquare />
-                        </a>
+                        <IconContext.Provider value={{ className: 'LinkedIn'}}>
+                            <a href="https://www.linkedin.com/in/ralexaustin9/">
+                                <FaIcons.FaLinkedin />
+                            </a>
+                        </IconContext.Provider>
+                        <IconContext.Provider value={{ className: 'Github'}}>
+                            <a href="https://github.com/raustin9">
+                                <FaIcons.FaGithubSquare />
+                            </a>
+                        </IconContext.Provider>
                     </Socials>
 
                 </Nav>

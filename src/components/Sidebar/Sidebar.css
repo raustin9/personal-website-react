@@ -1,4 +1,21 @@
-.github-square {
+.LinkedIn {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+.LinkedIn:hover {
+    color: #65C0F2;
+    font-size: 2.8rem;
+    transition: 100ms ease-in;
+}
+
+.Github {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.Github:hover {
+    color: #6cc644;
+    font-size: 2.8rem;
+    transition: 100ms ease-in;
 }
