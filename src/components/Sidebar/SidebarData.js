@@ -69,6 +69,6 @@ export const SidebarData = [
     {
         title: 'Music',
         path: '/music',
-        icon: <FaIcons.FaFileAudio />,
+        icon: <FaIcons.FaMusic />,
     }
 ]
