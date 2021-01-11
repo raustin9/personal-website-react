@@ -11,7 +11,7 @@ export const Aboutme = () => {
 export const PersonalStatement = () => {
     return (
         <div className='aboutme'>
-            <h1>AbouteMe/PersonalStatement</h1>
+            <h1>AboutMe/PersonalStatement</h1>
         </div>
     )
 }
@@ -19,7 +19,7 @@ export const PersonalStatement = () => {
 export const Education = () => {
     return (
         <div className='aboutme'>
-            <h1>AbouteMe/Education</h1>
+            <h1>AboutMe/Education</h1>
         </div>
     )
 }
@@ -27,7 +27,7 @@ export const Education = () => {
 export const Hobbies = () => {
     return (
         <div className='aboutme'>
-            <h1>AbouteMe/Hobbies</h1>
+            <h1>AboutMe/Hobbies</h1>
         </div>
     )
 }
@@ -35,7 +35,7 @@ export const Hobbies = () => {
 export const Organizations = () => {
     return (
         <div className='aboutme'>
-            <h1>AbouteMe/Organizations</h1>
+            <h1>AboutMe/Organizations</h1>
         </div>
     )
 }

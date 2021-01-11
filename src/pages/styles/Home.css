@@ -15,7 +15,9 @@
 
 
 .grid-item {
-    background: #355070;
+    /*background: #355070;*/
+    background: linear-gradient(45deg , #355070 80%,  #3E5B7D);
+    border-radius: 15px;
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -25,6 +27,7 @@
 }
 
 .grid-item:hover {
+    border-radius: 0px;
     transition: 300ms;
     background: #fff;
     color: #355070;
@@ -66,7 +69,7 @@
     grid-column: 3 / span 1;
 }
 
-#goals {
+#thissite {
     grid-row: 3 / span 1;
     grid-column: 4 / span 1;
 }
