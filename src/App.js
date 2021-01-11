@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar/Sidebar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import {Home} from './pages/Home'
-import {Aboutme , Education , Hobbies , PersonalStatement} from './pages/Aboutme'
+import {Aboutme , Education , Hobbies , PersonalStatement , Organizations} from './pages/Aboutme'
 import {Projects , PortfolioSite , Project2 , Project3} from './pages/Projects'
 import {Contact} from './pages/Contact'
 import {Music} from './pages/Music'
@@ -25,6 +25,7 @@ function App() {
                 <Route path="/aboutme/personalstatement" exact component={PersonalStatement} />
                 <Route path="/aboutme/education" exact component={Education} />
                 <Route path="/aboutme/hobbies" exact component={Hobbies} />
+                <Route path="/aboutme/organizations" exact component={Organizations} />
 
                 <Route path="/projects" exact component={Projects} />
                 <Route path="/projects/portfolio" exact component={PortfolioSite} />

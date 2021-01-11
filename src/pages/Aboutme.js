@@ -31,3 +31,11 @@ export const Hobbies = () => {
         </div>
     )
 }
+
+export const Organizations = () => {
+    return (
+        <div className='aboutme'>
+            <h1>AbouteMe/Organizations</h1>
+        </div>
+    )
+}

@@ -31,6 +31,11 @@ export const SidebarData = [
                 path: '/aboutme/hobbies',
                 icon: <IoIcons.IoIosPaper />
             },
+            {
+                title: 'Organizations',
+                path: '/aboutme/organizations',
+                icon: <IoIcons.IoIosPaper />
+            }
         ]
     },
     {
