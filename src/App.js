@@ -7,17 +7,16 @@ import {Projects , PortfolioSite , Project2 , Project3} from './pages/Projects'
 import {Contact} from './pages/Contact'
 import {Music} from './pages/Music'
 
-import { AnimatePresence } from 'framer-motion'
-import GlobalStyle from './globalStyles'
-import { motion } from 'framer-motion'
-
 function App() {
   return (
     <div>
+
+      
         <Router>
+          
+          
           <Sidebar />
           <Home />
-
               <Switch>
                 
                 <Route path="/home" exact component={Home} />
