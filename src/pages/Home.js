@@ -1,4 +1,3 @@
-import React , { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styles/Home.css'
 import styled from 'styled-components'
@@ -38,7 +37,7 @@ export const Home = () => {
         <div className="home">
             
                 <div className="grid">
-                    <LinkedIn target="_blank" href="https://www.linkedin.com/in/ralexaustin9/" id="face" className="grid-item linkedin">
+                    <LinkedIn rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ralexaustin9/" id="face" className="grid-item linkedin">
                         <IconContext.Provider value={{ className: 'Icon linkedin' }}>
                             <FaIcons.FaLinkedin />
                         </IconContext.Provider>
@@ -89,7 +88,7 @@ export const Home = () => {
                         <Text>Contact</Text>
                     </Contact>
 
-                    <Github target="_blank" href="https://github.com/raustin9" id="thissite" className="grid-item github">
+                    <Github rel="noreferrer" target="_blank" href="https://github.com/raustin9" id="thissite" className="grid-item github">
                         <IconContext.Provider value={{ className: 'Icon github' }}>
                             <FaIcons.FaGithub />
                         </IconContext.Provider>

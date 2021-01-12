@@ -70,12 +70,12 @@ const Sidebar = () => {
                     </NavIcon>
                     <Socials>
                         <IconContext.Provider value={{ className: 'LinkedIn'}}>
-                            <a target="_blank" href="https://www.linkedin.com/in/ralexaustin9/">
+                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ralexaustin9/">
                                 <FaIcons.FaLinkedin />
                             </a>
                         </IconContext.Provider>
                         <IconContext.Provider value={{ className: 'Github'}}>
-                            <a target="_blank" href="https://github.com/raustin9">
+                            <a rel="noreferrer" target="_blank" href="https://github.com/raustin9">
                                 <FaIcons.FaGithubSquare />
                             </a>
                         </IconContext.Provider>
