@@ -18,11 +18,11 @@
     /*background: #355070;*/
     background: linear-gradient(45deg , #355070 80%,  #3E5B7D);
     border-radius: 15px;
+    position: relative;
     color: #fff;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     transition: 300ms;
 }
 
@@ -32,6 +32,26 @@
     background: #fff;
     color: #355070;
     cursor: pointer;
+}
+
+.grid-item.linkedin:hover {
+    border-radius: 0px;
+    transition: 300ms;
+    background: #fff;
+    color: #2867B2;
+    cursor: pointer;
+}
+
+.grid-item.github:hover {
+    border-radius: 0px;
+    transition: 300ms;
+    background: #fff;
+    color: #62AB41;
+    cursor: pointer;
+}
+
+.Icon {
+    font-size: 3.5rem;
 }
 
 #face {
@@ -73,3 +93,11 @@
     grid-row: 3 / span 1;
     grid-column: 4 / span 1;
 }
+
+@media screen and (min-width: 960px) {
+    .Icon {
+        font-size: 4.3rem;
+        margin: 3px;
+    }
+}
+
