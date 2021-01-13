@@ -1,21 +1,45 @@
 .LinkedIn {
     color: #fff;
     font-size: 2.5rem;
+    transition: 200ms ease;
 }
 
 .LinkedIn:hover {
     color: #447FC5;
     font-size: 2.8rem;
-    transition: 100ms ease-in;
+    transition: 200ms ease;
 }
 
 .Github {
     color: #fff;
     font-size: 2.5rem;
+    transition: 300ms ease;
 }
 
 .Github:hover {
     color: #6cc644;
     font-size: 2.8rem;
-    transition: 100ms ease-in;
+    transition: 200ms ease;
+}
+
+.homebutton {
+    color: #fff;
+    font-size: 2.5rem;
+    transition: 300ms;
+}
+
+.homebutton:hover {
+    color: #F72585;
+    transition: 300ms;
+}
+
+.bars {
+    color: #fff;
+    font-size: 2.2rem;
+    transition: 300ms;
+}
+
+.bars:hover {
+    color : #F72585;
+    transition: 200ms;
 }

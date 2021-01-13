@@ -18,7 +18,7 @@ const Socials = styled.div`
     display:flex;
     align-items: center;
     justify-content: center;
-    column-gap: 1.3rem;
+    column-gap: 1.5rem;
 `;
 
 const Nav = styled.div`
@@ -55,6 +55,13 @@ const SidebarWrap = styled.div`
     width: 100%;
 `;
 
+const HomeButton = styled(Link)`
+    justify-self: start;
+    margin: auto;
+    margin-left: 20px;
+    font-size: 2.5rem;
+`;
+
 const Sidebar = () => {
 
     const[sidebar, setSidebar] = useState(false)
@@ -66,8 +73,17 @@ const Sidebar = () => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav>
                     <NavIcon to="#">
-                        <FaIcons.FaBars onClick={showSidebar}/>
+                        <IconContext.Provider value={{ className: 'bars' }}>
+                            <FaIcons.FaBars onClick={showSidebar}/>
+                        </IconContext.Provider>
                     </NavIcon>
+
+                    <HomeButton to="/home">
+                        <IconContext.Provider value={{ className: 'homebutton' }}>
+                            <FaIcons.FaHome />
+                        </IconContext.Provider>
+                    </HomeButton>
+
                     <Socials>
                         <IconContext.Provider value={{ className: 'LinkedIn'}}>
                             <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ralexaustin9/">
