@@ -17,13 +17,14 @@
 .grid-item {
     /*background: #355070;*/
     background: linear-gradient(45deg , #355070 80%,  #3E5B7D);
-    border-radius: 15px;
+    border-radius: 20px;
     position: relative;
     color: #fff;
     font-weight: bold;
     display: grid;
     place-items: center;
     transition: 300ms;
+    opacity: 0.8;
 }
 
 .grid-item:hover {
