@@ -7,13 +7,15 @@ import './styles/Contact.css'
 const Container = styled.div`
     background-color:  rgba(53 , 80 , 112 , 0.5);
     border-radius: 10px;
-    height: 90%;
+    height: 500px;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 30px;
     display: grid;
     grid-template-rows: repeat(5 , 100px);
     grid-template-columns: repeat(3 , 33.3333333%);
+    align-self: start;
     
 `;
 
@@ -22,17 +24,19 @@ const Header = styled.div`
     width: 100%;
     display: flex;
     opacity: 1;
-    background-color: #fff;
+    background-color: #255286;
     height: 70px;
     grid-row: 1 / span 1;
     grid-column: 1 / span 3;
+    align-items: center;
+    justify-content: center;
     
 `;
 
 const Email = styled.div`
     display: flex;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 10px;
     
     height: 90px;
     border-right: 2px solid #fff;
@@ -44,7 +48,7 @@ const Email = styled.div`
 const Phone = styled.div`
     display: flex;
     
-    margin-left: 3%;
+    margin-left: 10px;
     align-items: center;
     height: 90px;
     border-right: 2px solid #fff;
@@ -55,7 +59,7 @@ const Phone = styled.div`
 
 const Linkedin = styled.div`
     display: flex;
-    margin-left: 3%;
+    margin-left: 10px;
     align-items: center;
     height: 90px;
     border-right: 2px solid #fff;
@@ -66,7 +70,7 @@ const Linkedin = styled.div`
 
 const Github = styled.div`
     display: flex;
-    margin-left: 3%;
+    margin-left: 10px;
     align-items: center;
     height: 90px;
     border-right: 2px solid #fff;
@@ -76,6 +80,7 @@ const Github = styled.div`
 `;
 
 const Einfo = styled.div`
+    margin-right: 10px;
     display: flex;
     align-items: center;
     height: 90px;
@@ -86,6 +91,7 @@ const Einfo = styled.div`
 
 const Pinfo = styled.div`
     display: flex;
+    margin-right: 10px;
     align-items: center;
     height: 90px;
     grid-column: 2 / span 2;
@@ -96,6 +102,7 @@ const Pinfo = styled.div`
 const Linfo = styled.div`
     display: flex;
     align-items: center;
+    margin-right: 10px;
     height: 90px;
     grid-column: 2 / span 2;
     grid-row: 4 / span 1;
@@ -105,6 +112,7 @@ const Linfo = styled.div`
 const Ginfo = styled.div`
     display: flex;
     align-items: center;
+    margin-right: 10px;
     height: 90px;
     grid-column: 2 / span 2;
     grid-row: 5 / span 1;
@@ -117,6 +125,14 @@ const Text = styled.p`
     margin-left: 5%;
     font-family: "Monaco", monospace;
 `;
+
+const HeadText = styled.p`
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: bold;
+    font-family: "Monaco", monospace;
+`;
+
 const Links = styled.a`
     color: #fff;
     font-size: 1.3rem;
@@ -140,7 +156,9 @@ export const Contact = () => {
             
             <Container>
                 <Header>
-
+                    <HeadText>
+                        Contact Information
+                    </HeadText>
                 </Header>
 
                 <Email>
